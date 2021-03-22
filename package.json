@@ -4,10 +4,11 @@
   "description": "^C",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "vue-cli-service serve"
+    "sass": "sass --watch ./src/Tab-1/Tab-1.scss .src/Tab-1/Tab-1.css",
+    "serve": "vue-cli-service serve",
+    "scss": "node-sass --watch scss -o css"
   },
-  "author": "",
+  "author": "Diyana",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.32.8"

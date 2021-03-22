@@ -1,0 +1,45 @@
+
+.title__hotel {
+  
+  h1 {
+    color: $c-secondary;
+    font-size: 20px;
+    box-sizing: content-box;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 7%;
+  }
+}
+.title__image-starts {
+  width: 5%;
+  margin-left: 47%;
+}
+.boxes{
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    height: 350px;
+
+    button{
+      margin-left: 10px;
+    } 
+}
+.boxes__regimen-accommodation, .boxes__regimen-breakfast, .boxes__regimen-half, .boxes__regimen-all-inclusive, .boxes__regimen-unlimited{
+  border: 1px solid $c-primary;
+  width: 350px;
+  margin: 5px;
+  color:$c-secondary;
+    h3{
+    color: $c-third;
+    font-size: 11px;
+      }
+    
+}
+
+
+
+
+
+
+
+
