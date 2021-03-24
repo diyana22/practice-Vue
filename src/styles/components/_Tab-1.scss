@@ -15,15 +15,12 @@ img {
 
 }
 }
-@mixin tabs ($position, $display, $fontSz, $h){
-  position: $position;
-  display: $display;
-  font-size: $fontSz;
-  height: $h;
-}
 .boxes{
-   @include tabs(relative, flex, 12px, 350px ) 
-}
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    height: 350px;
+
     button{
       margin-left: 10px;
     } 
@@ -50,15 +47,12 @@ img {
     .boxes__regimen-unlimited__lista{
       margin-top: -9px;
     }
-    @mixin elements ($b,$w,$m,$c){
-      border: $b;
-      width: $w;
-      margin: $m;
-      color: $c
-    }
+}
 .boxes__regimen-accommodation, .boxes__regimen-breakfast, .boxes__regimen-half, .boxes__regimen-all-inclusive, .boxes__regimen-unlimited{
-  @include elements(1px solid $c-fourth, 350px, 5px, $c-secondary);
-  
+  border: 1px solid $c-fourth;
+  width: 350px;
+  margin: 5px;
+  color:$c-secondary;
     h3{
     color: $c-third;
     font-size: 11px;
@@ -71,3 +65,11 @@ img {
       }
     
 }
+
+
+
+
+
+
+
+

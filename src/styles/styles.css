@@ -29,27 +29,27 @@
   height: 350px;
 }
 
-button {
+.boxes button {
   margin-left: 10px;
 }
 
-.boxes__regimen-accommodation button, .boxes__regimen-half button {
+.boxes .boxes__regimen-accommodation button, .boxes .boxes__regimen-half button {
   margin-top: 180px;
 }
 
-.boxes__regimen-breakfast button {
+.boxes .boxes__regimen-breakfast button {
   margin-top: 195px;
 }
 
-.boxes__regimen-all-inclusive button {
+.boxes .boxes__regimen-all-inclusive button {
   margin-top: 80px;
 }
 
-.boxes__regimen-unlimited button {
+.boxes .boxes__regimen-unlimited button {
   margin-bottom: 30px;
 }
 
-.boxes__regimen-unlimited__lista {
+.boxes .boxes__regimen-unlimited__lista {
   margin-top: -9px;
 }
 
