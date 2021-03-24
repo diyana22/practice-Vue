@@ -15,12 +15,15 @@ img {
 
 }
 }
+@mixin list ($position, $display, $fontSz, $h){
+  position: $position;
+  display: $display;
+  font-size: $fontSz;
+  height: $h;
+}
 .boxes{
-    position: relative;
-    display: flex;
-    font-size: 12px;
-    height: 350px;
-
+   @include list(relative, flex, 12px, 350px ) 
+}
     button{
       margin-left: 10px;
     } 
@@ -47,7 +50,6 @@ img {
     .boxes__regimen-unlimited__lista{
       margin-top: -9px;
     }
-}
 .boxes__regimen-accommodation, .boxes__regimen-breakfast, .boxes__regimen-half, .boxes__regimen-all-inclusive, .boxes__regimen-unlimited{
   border: 1px solid $c-fourth;
   width: 350px;
@@ -65,11 +67,3 @@ img {
       }
     
 }
-
-
-
-
-
-
-
-
