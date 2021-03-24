@@ -15,14 +15,14 @@ img {
 
 }
 }
-@mixin list ($position, $display, $fontSz, $h){
+@mixin tabs ($position, $display, $fontSz, $h){
   position: $position;
   display: $display;
   font-size: $fontSz;
   height: $h;
 }
 .boxes{
-   @include list(relative, flex, 12px, 350px ) 
+   @include tabs(relative, flex, 12px, 350px ) 
 }
     button{
       margin-left: 10px;
