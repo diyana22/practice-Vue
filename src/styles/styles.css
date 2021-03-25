@@ -29,45 +29,77 @@
   height: 350px;
 }
 
-.boxes button {
-  margin-left: 10px;
+.boxes__regimen-accommodation button {
+  border: 2px solid #CEE3F6;
+  margin-top: 200px;
+  width: 120px;
+  height: 25px;
+  margin-left: 6px;
 }
 
-.boxes .boxes__regimen-accommodation button, .boxes .boxes__regimen-half button {
-  margin-top: 180px;
+.boxes__regimen-half button {
+  border: 2px solid #CEE3F6;
+  margin-top: 187px;
+  width: 120px;
+  height: 25px;
+  margin-left: 6px;
 }
 
-.boxes .boxes__regimen-breakfast button {
-  margin-top: 195px;
+.boxes__regimen-breakfast button {
+  border: 2px solid #CEE3F6;
+  margin-top: 187px;
+  width: 120px;
+  height: 25px;
+  margin-left: 6px;
 }
 
-.boxes .boxes__regimen-all-inclusive button {
-  margin-top: 80px;
+.boxes__regimen-all-inclusive button {
+  border: 2px solid #CEE3F6;
+  margin-top: 88px;
+  width: 120px;
+  height: 25px;
+  margin-left: 6px;
 }
 
-.boxes .boxes__regimen-unlimited button {
-  margin-bottom: 30px;
+.boxes__regimen-unlimited button {
+  border: 2px solid #CEE3F6;
+  margin-top: -6px;
+  width: 120px;
+  height: 25px;
+  margin-left: 20px;
 }
 
-.boxes .boxes__regimen-unlimited__lista {
-  margin-top: -9px;
+.boxes__regimen-unlimited__lista {
+  margin-top: -7px;
 }
 
-.boxes__regimen-accommodation, .boxes__regimen-breakfast, .boxes__regimen-half, .boxes__regimen-all-inclusive, .boxes__regimen-unlimited {
+.boxes__regimen-accommodation,
+.boxes__regimen-breakfast,
+.boxes__regimen-half,
+.boxes__regimen-all-inclusive,
+.boxes__regimen-unlimited {
   border: 1px solid #CEE3F6;
   width: 350px;
   margin: 5px;
   color: #3a6189;
 }
 
-.boxes__regimen-accommodation h3, .boxes__regimen-breakfast h3, .boxes__regimen-half h3, .boxes__regimen-all-inclusive h3, .boxes__regimen-unlimited h3 {
+.boxes__regimen-accommodation h3,
+.boxes__regimen-breakfast h3,
+.boxes__regimen-half h3,
+.boxes__regimen-all-inclusive h3,
+.boxes__regimen-unlimited h3 {
   color: #084B8A;
-  font-size: 11px;
-  margin: 15% 15% 5% 15%;
+  font-size: 12px;
+  margin: 15% 15% 15px 15%;
+  font-weight: bold;
 }
 
-.boxes__regimen-accommodation li, .boxes__regimen-breakfast li, .boxes__regimen-half li, .boxes__regimen-all-inclusive li, .boxes__regimen-unlimited li {
-  color: #516079;
+.boxes__regimen-accommodation li,
+.boxes__regimen-breakfast li,
+.boxes__regimen-half li,
+.boxes__regimen-all-inclusive li,
+.boxes__regimen-unlimited li {
   margin-right: 15px;
   font-weight: 500;
 }

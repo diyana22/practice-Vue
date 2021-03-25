@@ -4,7 +4,7 @@
   "description": "^C",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./src/Tab-1/Tab-1.scss .src/Tab-1/Tab-1.css",
+    "sass": "sass --watch ./src/styles/components/_Tab-1.scss .src/pages/Tab-1/Tab-1.css",
     "serve": "vue-cli-service serve",
     "scss": "node-sass --watch scss -o css"
   },
