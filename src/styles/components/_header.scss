@@ -1,0 +1,18 @@
+.header{
+    background-color:white;
+    text-align: end;
+    font-size: 18px;
+    padding: 8px;
+    box-shadow: 0px 2px 2px $c-fourth;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-right: 80px;
+
+    .first-Tab{
+        margin-right: 65px;
+        color: $c-third;
+    }
+    .second-Tab {
+        color: $c-third;
+    }
+}

@@ -1,3 +1,24 @@
+.header {
+  background-color: white;
+  text-align: end;
+  font-size: 18px;
+  padding: 8px;
+  -webkit-box-shadow: 0px 2px 2px #CEE3F6;
+          box-shadow: 0px 2px 2px #CEE3F6;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+
+.header .first-Tab {
+  margin-right: 65px;
+  color: #084B8A;
+}
+
+.header .second-Tab {
+  color: #084B8A;
+}
+
 .title {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -11,13 +32,13 @@
   color: #084B8A;
   font-size: 20px;
   width: 400px;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 .title img {
   width: 9%;
   height: 37%;
-  margin-top: 6%;
+  margin-top: 4%;
 }
 
 .boxes {
