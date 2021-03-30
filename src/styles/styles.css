@@ -1,17 +1,16 @@
 .header {
   background-color: white;
   text-align: end;
-  font-size: 18px;
-  padding: 8px;
+  font-size: 1rem;
+  padding: 0.2rem;
   -webkit-box-shadow: 0px 2px 2px #CEE3F6;
           box-shadow: 0px 2px 2px #CEE3F6;
-  margin-right: 40px;
-  margin-left: 40px;
-  margin-right: 80px;
+  margin-left: 2.5px;
+  margin-right: 0.31rem;
 }
 
 .header .first-Tab {
-  margin-right: 65px;
+  margin-right: 0.90rem;
   color: #084B8A;
 }
 
@@ -19,7 +18,11 @@
   color: #084B8A;
 }
 
-.title {
+* {
+  font-size: 100%;
+}
+
+.titleTab1 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -28,17 +31,17 @@
           justify-content: center;
 }
 
-.title h1 {
+.titleTab1 h1 {
   color: #084B8A;
-  font-size: 20px;
-  width: 400px;
+  font-size: 1rem;
   margin-top: 5%;
 }
 
-.title img {
+.titleTab1 img {
   width: 9%;
   height: 37%;
-  margin-top: 4%;
+  margin-top: 2%;
+  padding: 0.75rem;
 }
 
 .boxes {
@@ -46,82 +49,82 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 12px;
-  height: 350px;
+  font-size: 0.75rem;
+  height: 22rem;
 }
 
-.boxes__regimen-accommodation button {
+.boxes__accommodation button {
   border: 2px solid #CEE3F6;
-  margin-top: 200px;
-  width: 120px;
-  height: 25px;
-  margin-left: 6px;
+  margin-top: 12.5rem;
+  width: 7.5rem;
+  height: 1.56rem;
+  margin-left: 0.37rem;
 }
 
-.boxes__regimen-half button {
+.boxes__breakfast button {
   border: 2px solid #CEE3F6;
-  margin-top: 187px;
-  width: 120px;
-  height: 25px;
-  margin-left: 6px;
+  margin-top: 11.68rem;
+  width: 7.5rem;
+  height: 1.56rem;
+  margin-left: 0.37rem;
 }
 
-.boxes__regimen-breakfast button {
+.boxes__half button {
   border: 2px solid #CEE3F6;
-  margin-top: 187px;
+  margin-top: 11.6rem;
   width: 120px;
-  height: 25px;
-  margin-left: 6px;
+  height: 1.56rem;
+  margin-left: 0.37rem;
 }
 
-.boxes__regimen-all-inclusive button {
+.boxes__all button {
   border: 2px solid #CEE3F6;
-  margin-top: 88px;
-  width: 120px;
-  height: 25px;
-  margin-left: 6px;
+  margin-top: 5.5rem;
+  width: 7.5rem;
+  height: 1.56rem;
+  margin-left: 0.5rem;
 }
 
-.boxes__regimen-unlimited button {
+.boxes__unlimited button {
   border: 2px solid #CEE3F6;
   margin-top: -6px;
-  width: 120px;
-  height: 25px;
-  margin-left: 20px;
+  width: 7.5rem;
+  height: 1.56rem;
+  margin-left: 1.25rem;
 }
 
-.boxes__regimen-unlimited__lista {
+.boxes__unlimited__lista {
   margin-top: -7px;
 }
 
-.boxes__regimen-accommodation,
-.boxes__regimen-breakfast,
-.boxes__regimen-half,
-.boxes__regimen-all-inclusive,
-.boxes__regimen-unlimited {
+.boxes__accommodation,
+.boxes__breakfast,
+.boxes__half,
+.boxes__all,
+.boxes__unlimited {
   border: 1px solid #CEE3F6;
-  width: 350px;
+  width: 22rem;
   margin: 5px;
   color: #3a6189;
 }
 
-.boxes__regimen-accommodation h3,
-.boxes__regimen-breakfast h3,
-.boxes__regimen-half h3,
-.boxes__regimen-all-inclusive h3,
-.boxes__regimen-unlimited h3 {
+.boxes__accommodation h3,
+.boxes__breakfast h3,
+.boxes__half h3,
+.boxes__all h3,
+.boxes__unlimited h3 {
   color: #084B8A;
-  font-size: 12px;
+  font-size: 0.75rem;
   margin: 15% 15% 15px 15%;
-  font-weight: bold;
+  font-weight: 500px;
 }
 
-.boxes__regimen-accommodation li,
-.boxes__regimen-breakfast li,
-.boxes__regimen-half li,
-.boxes__regimen-all-inclusive li,
-.boxes__regimen-unlimited li {
-  margin-right: 15px;
+.boxes__accommodation li,
+.boxes__breakfast li,
+.boxes__half li,
+.boxes__all li,
+.boxes__unlimited li {
+  margin-right: 1rem;
   font-weight: 500;
 }
 /*# sourceMappingURL=styles.css.map */
