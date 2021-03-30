@@ -11,11 +11,21 @@
 
 .header .first-Tab {
   margin-right: 0.90rem;
+  color: #51678f;
+}
+
+.header .first-Tab:hover {
   color: #084B8A;
+  text-decoration: none;
 }
 
 .header .second-Tab {
+  color: #51678f;
+}
+
+.header .second-Tab:hover {
   color: #084B8A;
+  text-decoration: none;
 }
 
 * {
@@ -97,33 +107,21 @@
   margin-top: -7px;
 }
 
-.boxes__accommodation,
-.boxes__breakfast,
-.boxes__half,
-.boxes__all,
-.boxes__unlimited {
+.boxes__accommodation, .boxes__breakfast, .boxes__half, .boxes__all, .boxes__unlimited {
   border: 1px solid #CEE3F6;
   width: 22rem;
   margin: 5px;
   color: #3a6189;
 }
 
-.boxes__accommodation h3,
-.boxes__breakfast h3,
-.boxes__half h3,
-.boxes__all h3,
-.boxes__unlimited h3 {
+.boxes__accommodation h3, .boxes__breakfast h3, .boxes__half h3, .boxes__all h3, .boxes__unlimited h3 {
   color: #084B8A;
   font-size: 0.75rem;
   margin: 15% 15% 15px 15%;
   font-weight: 500px;
 }
 
-.boxes__accommodation li,
-.boxes__breakfast li,
-.boxes__half li,
-.boxes__all li,
-.boxes__unlimited li {
+.boxes__accommodation li, .boxes__breakfast li, .boxes__half li, .boxes__all li, .boxes__unlimited li {
   margin-right: 1rem;
   font-weight: 500;
 }

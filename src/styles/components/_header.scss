@@ -9,9 +9,17 @@
 
     .first-Tab{
         margin-right: 0.90rem;
-        color: $c-third;
+        color: $c-fifth;
+            &:hover{
+            color: $c-third;
+            text-decoration: none;
+        }
     }
     .second-Tab {
-        color: $c-third;
+        color: $c-fifth;
+        &:hover{
+            color: $c-third;
+            text-decoration: none;
+        }
     }
 }
