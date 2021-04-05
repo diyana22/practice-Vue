@@ -1,17 +1,16 @@
-//Mixin Tab-1
-@mixin click($brd, $mt, $w, $h, $ml) {
-    border: $brd;
-    margin-top: $mt;
-    width: $w;
-    height: $h;
-    margin-left: $ml;
-  }
-  
-  @mixin elements($b, $w, $m, $c) {
+//Mixin _boxTab-1
+
+  @mixin elements($b, $w, $m) {
     border: $b;
     width: $w;
     margin: $m;
-    color: $c;
+  }
+
+  @mixin buttons ($b,$mr,$ml,$pb){
+  border: $b;
+  margin-right: $mr;
+  margin-left: $ml;
+  padding-bottom: $pb;
   }
 
   

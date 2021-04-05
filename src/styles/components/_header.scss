@@ -1,25 +1,25 @@
-.header{
-    background-color:white;
-    text-align: end;
-    font-size: 1rem;
-    padding: 0.2rem;
-    box-shadow: 0px 2px 2px $c-fourth;
-    margin-left: 2.5px;
-    margin-right: 0.31rem;
+.header {
+  background-color: white;
+  text-align: end;
+  font-size: 1rem;
+  padding: 0.2rem;
+  box-shadow: 0px 2px 2px $c-fourth;
+  margin-left: 2.5px;
+  margin-right: 0.31rem;
 
-    .first-Tab{
-        margin-right: 0.90rem;
-        color: $c-fifth;
-            &:hover{
-            color: $c-third;
-            text-decoration: none;
-        }
+  .first-Tab {
+    margin-right: 0.9rem;
+    color: $c-fifth;
+    &:hover {
+      color: $c-third;
+      text-decoration: none;
     }
-    .second-Tab {
-        color: $c-fifth;
-        &:hover{
-            color: $c-third;
-            text-decoration: none;
-        }
+  }
+  .second-Tab {
+    color: $c-fifth;
+    &:hover {
+      color: $c-third;
+      text-decoration: none;
     }
+  }
 }
