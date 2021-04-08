@@ -32,7 +32,7 @@
   font-size: 100%;
 }
 
-.titleTab1 {
+.title-tab1 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -41,20 +41,20 @@
           justify-content: center;
 }
 
-.titleTab1 h1 {
+.title-tab1 h1 {
   color: #084B8A;
   font-size: 1rem;
   margin-top: 5%;
 }
 
-.titleTab1 img {
+.title-tab1 img {
   width: 9%;
   height: 37%;
   margin-top: 2%;
   padding: 0.75rem;
 }
 
-.boxes {
+.form-hotel-options {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,70 +63,45 @@
   height: 22rem;
 }
 
-.boxes .boxes__button {
-  border: 2px solid #CEE3F6;
-  padding: 3%;
-}
-
-.boxes .boxes__accommodation,
-.boxes .boxes__breakfast,
-.boxes .boxes__half,
-.boxes .boxes__all,
-.boxes .boxes__unlimited {
+.form-accommodation,
+.form-breakfast,
+.form-half,
+.form-all,
+.form-unlimited {
   border: 1px solid #CEE3F6;
   width: 22rem;
-  margin: 5px;
+  margin: 0.31rem;
 }
 
-.boxes .boxes__accommodation h3,
-.boxes .boxes__breakfast h3,
-.boxes .boxes__half h3,
-.boxes .boxes__all h3,
-.boxes .boxes__unlimited h3 {
+.form-accommodation:hover,
+.form-breakfast:hover,
+.form-half:hover,
+.form-all:hover,
+.form-unlimited:hover {
+  border: solid #084B8A;
+}
+
+h3 {
   color: #084B8A;
   font-size: 0.75rem;
-  margin: 15% 15% 15px 15%;
+  margin: 15%;
   font-weight: 500px;
 }
 
-.boxes .boxes__accommodation li,
-.boxes .boxes__breakfast li,
-.boxes .boxes__half li,
-.boxes .boxes__all li,
-.boxes .boxes__unlimited li {
+li {
   margin-right: 1rem;
   font-weight: 500;
   color: #041D2E;
 }
 
-.boxes .boxes__accommodation .boxes__button-firts,
-.boxes .boxes__accommodation .boxes__button-second,
-.boxes .boxes__accommodation .boxes__button-third,
-.boxes .boxes__accommodation .boxes__button-forth,
-.boxes .boxes__accommodation .boxes__button-fifth,
-.boxes .boxes__breakfast .boxes__button-firts,
-.boxes .boxes__breakfast .boxes__button-second,
-.boxes .boxes__breakfast .boxes__button-third,
-.boxes .boxes__breakfast .boxes__button-forth,
-.boxes .boxes__breakfast .boxes__button-fifth,
-.boxes .boxes__half .boxes__button-firts,
-.boxes .boxes__half .boxes__button-second,
-.boxes .boxes__half .boxes__button-third,
-.boxes .boxes__half .boxes__button-forth,
-.boxes .boxes__half .boxes__button-fifth,
-.boxes .boxes__all .boxes__button-firts,
-.boxes .boxes__all .boxes__button-second,
-.boxes .boxes__all .boxes__button-third,
-.boxes .boxes__all .boxes__button-forth,
-.boxes .boxes__all .boxes__button-fifth,
-.boxes .boxes__unlimited .boxes__button-firts,
-.boxes .boxes__unlimited .boxes__button-second,
-.boxes .boxes__unlimited .boxes__button-third,
-.boxes .boxes__unlimited .boxes__button-forth,
-.boxes .boxes__unlimited .boxes__button-fifth {
+.form-button {
   border: 2px solid #CEE3F6;
   margin-right: 5%;
   margin-left: 5%;
   padding-bottom: 3%;
+}
+
+.form-button:hover {
+  border: 2px solid #084B8A;
 }
 /*# sourceMappingURL=styles.css.map */
