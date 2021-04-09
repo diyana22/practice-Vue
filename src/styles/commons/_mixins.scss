@@ -1,14 +1,17 @@
 //Mixin _boxTab-1
 
-@mixin elements($b, $w, $m) {
-  border: $b;
-  width: $w;
-  margin: $m;
-}
+  @mixin elements($b, $w, $m,) {
+    border: $b;
+    width: $w;
+    margin: $m;
+  }
 
-@mixin buttons($b, $mr, $ml, $pb) {
+  @mixin buttons ($b, $padding, $tac, $w, $margin){
   border: $b;
-  margin-right: $mr;
-  margin-left: $ml;
-  padding-bottom: $pb;
-}
+  padding-bottom: $padding;
+  text-align: $tac;
+  width: $w;
+  margin: $margin;
+  }
+
+  

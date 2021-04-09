@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   font-size: 0.75rem;
-  height: 22rem;
+  height: 25rem;
 }
 
 .form-accommodation,
@@ -10,7 +10,7 @@
 .form-half,
 .form-all,
 .form-unlimited {
-  @include elements(1px solid $c-fourth, 22rem, 0.31rem);
+  @include elements(1px solid $c-fourth, 22rem, 0.3rem);
   &:hover {
     border: solid $c-third;
   }
@@ -19,17 +19,34 @@
 h3 {
   color: $c-third;
   font-size: 0.75rem;
-  margin: 15% ;
   font-weight: $bold;
+  text-align: center;
 }
+
+hr {
+  width: 50%;
+  background-color: $c-fourth;
+}
+
+ul{
+  height: 298px;
+}
+
 li {
   margin-right: 1rem;
   font-weight: 500;
   color: $c-fifth;
+  text-align: left;
 }
 
 .form-button {
-  @include buttons(2px solid $c-fourth, 5%, 5%, 3%); //los % son el alto, ancho y padding ya que no estaba centrado
+  @include buttons(
+    2px solid $c-fourth,
+    1%,
+    center,
+    7rem,
+    auto
+  ); //los % son el alto, ancho y padding ya que no estaba centrado
   &:hover {
     border: 2px solid $c-third;
   }
