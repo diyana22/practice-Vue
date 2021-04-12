@@ -78,7 +78,7 @@
 .form-half:hover,
 .form-all:hover,
 .form-unlimited:hover {
-  border: solid #084B8A;
+  border: 2px solid #084B8A;
 }
 
 h3 {
