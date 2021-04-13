@@ -1,8 +1,8 @@
 .form-hotel-options {
   position: relative;
   display: flex;
-  font-size: 0.75rem;
-  height: 25rem;
+  font-size: rem(12);
+  height: rem(400);
 }
 
 .form-accommodation,
@@ -10,41 +10,41 @@
 .form-half,
 .form-all,
 .form-unlimited {
-  @include elements(1px solid $c-fourth, 22rem, 0.3rem);
+  @include elements(1px solid (map-get($colors, 'c-fourth')), rem(352), rem(4.8));
   &:hover {
     @include button-over()
   }
 }
 
 h3 {
-  color: $c-third;
-  font-size: 0.75rem;
+  color: (map-get($colors,'c-third'));
+  font-size: rem(12);
   font-weight: $bold;
   text-align: center;
 }
 
 hr {
   width: 50%;
-  background-color: $c-fourth;
+  background-color: (map-get($colors,'c-fourth'));
 }
 
 ul {
-  height: 298px;
+  height: rem(298);
 }
 
 li {
-  margin-right: 1rem;
+  margin-right: rem(16);
   font-weight: 500;
-  color: $c-fifth;
+  color: (map-get($colors,'c-fifth'));
   text-align: left;
 }
 
 .form-button {
   @include buttons(
-    2px solid $c-fourth,
+    rem(2) solid (map-get($colors,'c-fourth')),
     1%,
     center,
-    7rem,
+    rem(112),
     auto
   ); //los % son el alto, ancho y padding ya que no estaba centrado
   &:hover {

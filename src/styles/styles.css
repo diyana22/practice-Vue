@@ -1,5 +1,4 @@
 .header {
-  background-color: white;
   text-align: end;
   font-size: 1rem;
   padding: 0.2rem;
@@ -94,7 +93,7 @@ hr {
 }
 
 ul {
-  height: 298px;
+  height: 18.625rem;
 }
 
 li {
@@ -105,7 +104,7 @@ li {
 }
 
 .form-button {
-  border: 2px solid #CEE3F6;
+  border: 0.125rem solid #CEE3F6;
   padding-bottom: 1%;
   text-align: center;
   width: 7rem;

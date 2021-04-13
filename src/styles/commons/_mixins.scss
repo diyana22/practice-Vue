@@ -1,5 +1,14 @@
-//Mixin _boxTab-1
+// pixel to rem
+$browser-context: 16;
+@function rem($pixels, $context: $browser-context) {
+  @if $pixels == 0 {
+    @return 0;
+  } @else {
+    @return ($pixels / $context) * 1rem;
+  }
+};
 
+//Mixin _boxTab-1
 @mixin elements($b, $w, $m) {
   border: $b;
   width: $w;
@@ -14,6 +23,6 @@
   margin: $margin;
 }
 
-@mixin button-over ($border:2px solid $c-third){
+@mixin button-over ($border:2px solid (map-get($colors,'c-third'))){
   border: $border;
 }
