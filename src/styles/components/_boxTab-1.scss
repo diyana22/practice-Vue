@@ -10,14 +10,18 @@
 .form-half,
 .form-all,
 .form-unlimited {
-  @include elements(1px solid (map-get($colors, 'c-fourth')), rem(352), rem(4.8));
+  @include elements(
+    1px solid (map-get($colors, 'c-fourth')),
+    rem(352),
+    rem(4.8)
+  );
   &:hover {
-    @include button-over()
+    @include button-over();
   }
 }
 
 h3 {
-  color: (map-get($colors,'c-third'));
+  color: (map-get($colors, 'c-third'));
   font-size: rem(12);
   font-weight: $bold;
   text-align: center;
@@ -25,7 +29,7 @@ h3 {
 
 hr {
   width: 50%;
-  background-color: (map-get($colors,'c-fourth'));
+  background-color: (map-get($colors, 'c-fourth'));
 }
 
 ul {
@@ -35,19 +39,19 @@ ul {
 li {
   margin-right: rem(16);
   font-weight: 500;
-  color: (map-get($colors,'c-fifth'));
+  color: (map-get($colors, 'c-fifth'));
   text-align: left;
 }
 
 .form-button {
   @include buttons(
-    rem(2) solid (map-get($colors,'c-fourth')),
+    rem(2) solid (map-get($colors, 'c-fourth')),
     1%,
     center,
     rem(112),
     auto
   ); //los % son el alto, ancho y padding ya que no estaba centrado
   &:hover {
-    @include button-over()
+    @include button-over();
   }
 }
