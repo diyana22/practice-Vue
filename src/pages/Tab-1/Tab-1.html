@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="../../styles/styles.css" rel="stylesheet" />
-    <script src="Tab-1.js"></script>
+    <script src="tab-1.js"></script>
     <link
       href="https://allfont.es/allfont.css?fonts=roboto-slab-regular"
       rel="stylesheet"
@@ -20,44 +20,80 @@
   </head>
   <body>
     <div>
-      <div class="title">
+      <header class="header">
+        <a href="../Tab-1/tab-1.html" class="first-tab">Tab 1</a>
+        <a href="../Tab-2/tab-2.html" class="second-tab">Tab 2</a>
+      </header>
+      <div class="title-tab1">
         <h1>HOTEL Mieres del Camín Apartamentos</h1>
         <img
-          class="title__image-starts"
           src="../../../images/five-star.png"
           alt="Imagen de cuatro estrellas del hotel"
         />
       </div>
-      <div class="boxes">
-        <div class="boxes__regimen-accommodation">
-          <h3>Solo Alojamiento</h3>
+      <form class="form-hotel-options">
+        <label class="form-accommodation">
+          <h3>
+            Solo Alojamiento
+            <hr />
+          </h3>
           <ul>
             <li>Sin régimen.</li>
             <li>Botella de agua de bienvenida.</li>
           </ul>
-          <button>Elegir régimen</button>
-        </div>
+          <p class="form-button">
+            <input
+              type="radio"
+              name="button-select-options"
+              value="first-option"
+            />
+            Elegir régimen
+          </p>
+        </label>
 
-        <div class="boxes__regimen-breakfast">
-          <h3>Alojamiento y desayuno</h3>
+        <label class="form-breakfast">
+          <h3>
+            Alojamiento y desayuno
+            <hr />
+          </h3>
           <ul>
             <li>Desayuno buffet completo.</li>
           </ul>
-          <button>Elegir régimen</button>
-        </div>
+          <p class="form-button">
+            <input
+              type="radio"
+              name="button-select-options"
+              value="second-option"
+            />
+            Elegir régimen
+          </p>
+        </label>
 
-        <div class="boxes__regimen-half">
-          <h3>Media pensión</h3>
+        <label class="form-half">
+          <h3>
+            Media pensión
+            <hr />
+          </h3>
           <ul>
             <li>Desayuno buffet completo</li>
             <li>Cena buffet</li>
             <li>No incluye</li>
           </ul>
-          <button>Elegir régimen</button>
-        </div>
+          <p class="form-button">
+            <input
+              type="radio"
+              name="button-select-options"
+              value="third-option"
+            />
+            Elegir régimen
+          </p>
+        </label>
 
-        <div class="boxes__regimen-all-inclusive">
-          <h3>Todo incluido</h3>
+        <label class="form-all">
+          <h3>
+            Todo incluido
+            <hr />
+          </h3>
           <ul>
             <li>
               Dispondrás de comida y bebida todo el día y durante toda tu
@@ -67,27 +103,42 @@
             <li>Snack Bar</li>
             <li>Servicio de bares(marcas nacionales)</li>
           </ul>
-          <button>Elegir régimen</button>
-        </div>
+          <p class="form-button">
+            <input
+              type="radio"
+              name="button-select-options"
+              value="forth-option"
+            />
+            Elegir régimen
+          </p>
+        </label>
 
-        <div class="boxes__regimen-unlimited">
-          <div class="boxes__regimen-unlimited__lista">
-            <h3>Unlimited Services</h3>
-            <ul>
-              <li>Restaurante buffetcon bebidas Premium.</li>
-              <li>Restaurante a la carta (una cena por estancia).</li>
-              <li>Snack bar con bebidas Premium.</li>
-              <li>Minibar incluido.</li>
-              <li>Acceso a SPA y 45 minutosde masaje por persona.</li>
-              <li>Actividades deportivas(acuáticas sin motor).</li>
-              <li>Caja feurte.</li>
-              <li>Parking gratuito.</li>
-              <li>Lavandería.</li>
-            </ul>
-          </div>
-          <button>Elegir régimen</button>
-        </div>
-      </div>
+        <label class="form-unlimited">
+          <h3>
+            Unlimited Services
+            <hr />
+          </h3>
+          <ul>
+            <li>Restaurante buffet con bebidas Premium.</li>
+            <li>Restaurante a la carta (una cena por estancia).</li>
+            <li>Snack bar con bebidas Premium.</li>
+            <li>Minibar incluido.</li>
+            <li>Acceso a SPA y 45 minutosde masaje por persona.</li>
+            <li>Actividades deportivas(acuáticas sin motor).</li>
+            <li>Caja feurte.</li>
+            <li>Parking gratuito.</li>
+            <li>Lavandería.</li>
+          </ul>
+          <p class="form-button">
+            <input
+              type="radio"
+              name="button-select-options"
+              value="fifth-option"
+            />
+            Elegir régimen
+          </p>
+        </label>
+      </form>
     </div>
   </body>
 </html>

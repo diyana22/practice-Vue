@@ -1,0 +1,57 @@
+.form-hotel-options {
+  position: relative;
+  display: flex;
+  font-size: rem(12);
+  height: rem(400);
+}
+
+.form-accommodation,
+.form-breakfast,
+.form-half,
+.form-all,
+.form-unlimited {
+  @include elements(
+    1px solid (map-get($colors, 'c-fourth')),
+    rem(352),
+    rem(4.8)
+  );
+  &:hover {
+    @include button-over();
+  }
+}
+
+h3 {
+  color: (map-get($colors, 'c-third'));
+  font-size: rem(12);
+  font-weight: $bold;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  background-color: (map-get($colors, 'c-fourth'));
+}
+
+ul {
+  height: rem(298);
+}
+
+li {
+  margin-right: rem(16);
+  font-weight: 500;
+  color: (map-get($colors, 'c-fifth'));
+  text-align: left;
+}
+
+.form-button {
+  @include buttons(
+    rem(2) solid (map-get($colors, 'c-fourth')),
+    1%,
+    center,
+    rem(112),
+    auto
+  ); //los % son el alto, ancho y padding ya que no estaba centrado
+  &:hover {
+    @include button-over();
+  }
+}

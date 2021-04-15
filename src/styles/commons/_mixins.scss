@@ -1,17 +1,28 @@
-//Mixin Tab-1
-@mixin click($brd, $mt, $w, $h, $ml) {
-    border: $brd;
-    margin-top: $mt;
-    width: $w;
-    height: $h;
-    margin-left: $ml;
+// pixel to rem
+$browser-context: 16;
+@function rem($pixels, $context: $browser-context) {
+  @if $pixels == 0 {
+    @return 0;
+  } @else {
+    @return ($pixels / $context) * 1rem;
   }
-  
-  @mixin elements($b, $w, $m, $c) {
-    border: $b;
-    width: $w;
-    margin: $m;
-    color: $c;
-  }
+};
 
-  
+//Mixin _boxTab-1
+@mixin elements($b, $w, $m) {
+  border: $b;
+  width: $w;
+  margin: $m;
+}
+
+@mixin buttons($b, $padding, $tac, $w, $margin) {
+  border: $b;
+  padding-bottom: $padding;
+  text-align: $tac;
+  width: $w;
+  margin: $margin;
+}
+
+@mixin button-over ($border:2px solid (map-get($colors,'c-third'))){
+  border: $border;
+}
