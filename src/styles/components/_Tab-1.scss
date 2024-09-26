@@ -1,73 +1,20 @@
-.title {
+* {
+  font-size: 100%;
+}
+
+.title-tab1 {
   display: inline-flex;
   justify-content: center;
 
   h1 {
-    color: $c-third;
-    font-size: 20px;
-    width: 400px;
-    margin-top: 7%;
+    color: (map-get($colors, 'c-third'));
+    font-size: rem(16);
+    margin-top: 5%;
   }
   img {
     width: 9%;
     height: 37%;
-    margin-top: 6%;
-  }
-}
-
-
-.boxes {
-  position:relative;
-  display:flex; 
-  font-size:12px;
-  height:350px;
-  
-
-&__regimen-accommodation {
-  button {
-    @include click(2px solid $c-fourth, 200px, 120px, 25px, 6px);
-  }
-}
-&__regimen-half {
-  button {
-    @include click(2px solid $c-fourth, 187px, 120px, 25px, 6px);
-  }
-}
-&__regimen-breakfast {
-  button {
-    @include click(2px solid $c-fourth, 187px, 120px, 25px, 6px);
-  }
-}
-&__regimen-all-inclusive {
-  button {
-    @include click(2px solid $c-fourth, 88px, 120px, 25px, 6px);
-  }
-}
-&__regimen-unlimited {
-  button {
-    @include click(2px solid $c-fourth, -6px, 120px, 25px, 20px);
-  }
-}
-&__regimen-unlimited__lista {
-  margin-top: -7px;
-}
-}
-
-.boxes__regimen-accommodation,
-.boxes__regimen-breakfast,
-.boxes__regimen-half,
-.boxes__regimen-all-inclusive,
-.boxes__regimen-unlimited {
-  @include elements(1px solid $c-fourth, 350px, 5px, $c-secondary);
-
-  h3 {
-    color: $c-third;
-    font-size: 12px;
-    margin: 15% 15% 15px 15%;
-    font-weight: bold;
-  }
-  li {
-    margin-right: 15px;
-    font-weight: 500;
+    margin-top: 2%;
+    padding: 0.75rem;
   }
 }

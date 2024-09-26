@@ -1,4 +1,37 @@
-.title {
+.header {
+  text-align: end;
+  font-size: 1rem;
+  padding: 0.2rem;
+  -webkit-box-shadow: 0px 2px 2px #CEE3F6;
+          box-shadow: 0px 2px 2px #CEE3F6;
+  margin-left: 2.5px;
+  margin-right: 0.31rem;
+}
+
+.header .first-Tab {
+  margin-right: 0.9rem;
+  color: #041D2E;
+}
+
+.header .first-Tab:hover {
+  color: #084B8A;
+  text-decoration: none;
+}
+
+.header .second-Tab {
+  color: #041D2E;
+}
+
+.header .second-Tab:hover {
+  color: #084B8A;
+  text-decoration: none;
+}
+
+* {
+  font-size: 100%;
+}
+
+.title-tab1 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -7,100 +40,78 @@
           justify-content: center;
 }
 
-.title h1 {
+.title-tab1 h1 {
   color: #084B8A;
-  font-size: 20px;
-  width: 400px;
-  margin-top: 7%;
+  font-size: 1rem;
+  margin-top: 5%;
 }
 
-.title img {
+.title-tab1 img {
   width: 9%;
   height: 37%;
-  margin-top: 6%;
+  margin-top: 2%;
+  padding: 0.75rem;
 }
 
-.boxes {
+.form-hotel-options {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 12px;
-  height: 350px;
+  font-size: 0.75rem;
+  height: 25rem;
 }
 
-.boxes__regimen-accommodation button {
-  border: 2px solid #CEE3F6;
-  margin-top: 200px;
-  width: 120px;
-  height: 25px;
-  margin-left: 6px;
-}
-
-.boxes__regimen-half button {
-  border: 2px solid #CEE3F6;
-  margin-top: 187px;
-  width: 120px;
-  height: 25px;
-  margin-left: 6px;
-}
-
-.boxes__regimen-breakfast button {
-  border: 2px solid #CEE3F6;
-  margin-top: 187px;
-  width: 120px;
-  height: 25px;
-  margin-left: 6px;
-}
-
-.boxes__regimen-all-inclusive button {
-  border: 2px solid #CEE3F6;
-  margin-top: 88px;
-  width: 120px;
-  height: 25px;
-  margin-left: 6px;
-}
-
-.boxes__regimen-unlimited button {
-  border: 2px solid #CEE3F6;
-  margin-top: -6px;
-  width: 120px;
-  height: 25px;
-  margin-left: 20px;
-}
-
-.boxes__regimen-unlimited__lista {
-  margin-top: -7px;
-}
-
-.boxes__regimen-accommodation,
-.boxes__regimen-breakfast,
-.boxes__regimen-half,
-.boxes__regimen-all-inclusive,
-.boxes__regimen-unlimited {
+.form-accommodation,
+.form-breakfast,
+.form-half,
+.form-all,
+.form-unlimited {
   border: 1px solid #CEE3F6;
-  width: 350px;
-  margin: 5px;
-  color: #3a6189;
+  width: 22rem;
+  margin: 0.3rem;
 }
 
-.boxes__regimen-accommodation h3,
-.boxes__regimen-breakfast h3,
-.boxes__regimen-half h3,
-.boxes__regimen-all-inclusive h3,
-.boxes__regimen-unlimited h3 {
+.form-accommodation:hover,
+.form-breakfast:hover,
+.form-half:hover,
+.form-all:hover,
+.form-unlimited:hover {
+  border: 2px solid #084B8A;
+}
+
+h3 {
   color: #084B8A;
-  font-size: 12px;
-  margin: 15% 15% 15px 15%;
-  font-weight: bold;
+  font-size: 0.75rem;
+  font-weight: 500px;
+  text-align: center;
 }
 
-.boxes__regimen-accommodation li,
-.boxes__regimen-breakfast li,
-.boxes__regimen-half li,
-.boxes__regimen-all-inclusive li,
-.boxes__regimen-unlimited li {
-  margin-right: 15px;
+hr {
+  width: 50%;
+  background-color: #CEE3F6;
+}
+
+ul {
+  height: 18.625rem;
+}
+
+li {
+  margin-right: 1rem;
   font-weight: 500;
+  color: #041D2E;
+  text-align: left;
+}
+
+.form-button {
+  border: 0.125rem solid #CEE3F6;
+  padding-bottom: 1%;
+  text-align: center;
+  width: 7rem;
+  margin: auto;
+}
+
+.form-button:hover {
+  border: 2px solid #084B8A;
 }
 /*# sourceMappingURL=styles.css.map */
